@@ -1,0 +1,187 @@
+@font-face {
+    font-family:'Pacifico';
+    src: url(/fontes/Pacifico-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family:'Trajan';
+    src: url(/fonts/TrajanPro-Bold.otf) format(opentype);
+}
+@font-face {
+    font-family:'Poppins';
+    src: url(/fonts/Poppins-Regular.ttf) format(truetype), url(/fonts/Poppins-BlackItalic.ttf) format(truetype), url(/fonts/Poppins-Bold.ttf) format(truetype), url(/fonts/Poppins-ExtraBold.ttf) format(truetype), url(/fonts/Poppins-BoldItalic.ttf) format(truetype),url(/fonts/Poppins-ExtraBoldItalic.ttf) format(truetype), url(/fonts/Poppins-ExtraLight.ttf) format(truetype), url(/fonts/Poppins-ExtraLightItalic.ttf) format(truetype), url(/fonts/Poppins-Italic.ttf) format(truetype), url(/fonts/Poppins-Light.ttf) format(truetype), url(/fonts/Poppins-LightItalic.ttf) format(truetype), url(/fonts/Poppins-Black.ttf) format(truetype), url(/fonts/Poppins-MediumItalic.ttf) format(truetype), url(/fonts/Poppins-Medium.ttf) format(truetype), url(/fonts/Poppins-SemiBold.ttf) format(truetype), url(/fonts/Poppins-SemiBoldItalic.ttf) format(truetype), url(/fonts/Poppins-Thin.ttf) format(truetype), url(/fonts/Poppins-ThinItalic.ttf) format(truetype);
+}
+
+@font-face {
+    font-family:'bebas-neue';
+    src: url(/fonts/BebasNeue-Regular.ttf) format(truetype);
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Poppins', sem serifa;
+    
+}
+
+/*
+fontes: impact - titulo; Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+titulo - pacifico; font-family: 'Pacifico', cursiva;
+subtitulo- bebas neue; font-family: 'Bebas Neue', cursiva;
+corpo do texto - poppins; font-family: 'Poppins', sem serifa;
+cores: FFE07D, FFD064, CCF49F, DD58D9, EB72E7, 95D6A4;
+
+*/
+.topo{
+    display: flex;
+    flex-flow: row wrap;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
+    width: 100%;
+    border-bottom: 5px double #000000;
+}
+.logo img{
+    height: 120px;
+    flex: 50%;
+    margin-left: 40px;
+    text-align: left;
+
+}
+.redes-sociais{
+    flex:50% ;
+    text-align: right;
+    padding: 20px;
+    margin-right: 40px;
+}
+
+.redes-sociais a:hover{
+    filter: drop-shadow(5px 5px 6px #FFD064 )
+    /* box-shadow: 7px 9px 9px #D390D5; */
+    ;
+}
+
+.menu {
+    width: 100%;
+    height: 70px;
+    background: #FFD064;
+    background-size: contain;
+    display: flex;
+    flex: row wrap;
+    justify-content: center;
+    border-bottom: 5px double #000000;
+}
+
+.menu a{
+    margin: 10px;
+    height: 50px;
+    padding: 10px 10px 10px 10px;
+    background:#ffffff ;
+    text-decoration: none;
+    font-family: 'bebas beue',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif cursiva;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 5px double #000000;
+}
+
+#casa{
+    height: auto;
+    margin: 0;
+}
+#casa:hover{
+    border: 5px double #ffffff;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+#bt1:hover{
+
+    padding: 10px 10px 10px 10px;
+    color:#000000;
+    background: #6BB7D1;
+    border: 5px double #ffffff;
+    transition: all 0.9s ease;
+}
+
+#bt2:hover{
+    padding: 10px 10px 10px 10px;
+    color:#000000;
+    background: #F192A6;
+    border: 5px double #ffffff;
+    transition: all 0.9s ease;
+}
+
+#bt3:hover{
+    padding: 10px 10px 10px 10px;
+    color:#000000;
+    background: #FFD064;
+    border: 5px double #ffffff;
+    transition: all 0.9s ease;
+}
+
+#bt4:hover{
+    padding: 10px 10px 10px 10px;
+    color:#000000;
+    background: #A487BD;
+    border: 5px double #ffffff;
+    transition: all 0.9s ease;
+}
+
+#bt5:hover{
+    padding: 10px 10px 10px 10px;
+    color:#000000;
+    background: #95D6A4;
+    border: 5px double #ffffff;
+    transition: all 0.9s ease;
+}
+
+#bt6:hover{
+    padding: 10px 10px 10px 10px;
+    color:#000000;
+    background: #CCF49F;
+    border: 5px double #ffffff;
+    transition: all 0.9s ease;
+}
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    height: 120px;
+    /* position: fixed; */
+    width: 100%;
+}
+
+.logo-rodapé img{
+    height: 80px;
+    flex: 30%;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+
+.creditos{
+    margin-top: 20px;
+    margin-right: 40px;
+    flex:60% ;
+    text-align: right;
+    padding: 20px;
+}
+.creditos a{
+    color: #ffffff;
+    background: #FFD064;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 16px;
+}
+.creditos a:hover{
+    background: #ffb300;
+}
+footer{
+    height: auto;
+}
+

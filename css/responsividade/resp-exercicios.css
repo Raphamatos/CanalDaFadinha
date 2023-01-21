@@ -1,0 +1,44 @@
+@media screen and (max-width:1005px){
+    .navbar{
+        position: relative;
+    }
+    .redes-sociais{
+        display: none;
+    }
+    .menu{
+        height: auto;
+        flex-wrap: wrap;
+        
+    }
+    .header{
+        padding-top:50px;
+        flex-flow: row wrap;
+    }
+    .headline{
+        flex:100%;
+        margin:5%;
+        text-align:center;
+    }
+    .headline p{
+        text-align:center;
+    }
+    .img-headline{
+        flex:100%;
+        margin:5%;
+        text-align:center;
+    }
+
+    .card{
+        width:100%;
+    }
+    .logo-rodapé{
+        flex:100%;
+        margin:5%;
+        text-align:center;
+    }
+    .creditos a{
+        display: none;
+
+    }
+
+}
