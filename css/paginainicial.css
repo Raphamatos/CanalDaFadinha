@@ -247,29 +247,30 @@ section h2{
     display: none;
 
 }
-
 footer{
     display: flex;
-    flex-flow: row wrap;
     height: 120px;
-    /* position: fixed; */
-    width: 100%;
+    display: flex;
+    margin: 5px 40px;
 }
-
+.logo-rodapé{
+    width: 50%;
+}
 .logo-rodapé img{
-    height: 80px;
-    flex: 30%;
-    margin-left: 40px;
-    margin-top: 20px;
-    
+    height: 120px;
+    align-items: flex-end;
+
 }
 
 .creditos{
-    margin-top: 20px;
-    margin-right: 40px;
-    flex:60% ;
-    text-align: right;
-    padding: 20px;
+    width: 50%;
+    height: 120px;
+    margin-right: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    
 }
 .creditos a{
     color: #ffffff;
@@ -279,11 +280,10 @@ footer{
     font-size: 16px;
     font-weight: bold;
     padding: 20px 16px;
+    margin: 5px;
+    
 }
 .creditos a:hover{
     background: #DD58D9;
-}
-footer{
-    height: auto;
 }
 

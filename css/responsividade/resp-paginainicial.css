@@ -31,14 +31,15 @@
     .card{
         width:100%;
     }
-    .logo-rodapé{
-        flex:100%;
-        margin:5%;
-        text-align:center;
+    footer{
+        flex-flow: column;
+        align-items: center;
     }
-    .creditos a{
-        display: none;
-
+    .logo-rodapé{
+        width: auto;
+    }
+    .creditos{
+        justify-content: center;
     }
 
 }
