@@ -1,19 +1,7 @@
-@font-face {
-    font-family:'Pacifico';
-    src: url(/fontes/Pacifico-Regular.ttf) format(truetype);
-}
-@font-face {
-    font-family:'Trajan';
-    src: url(/fonts/TrajanPro-Bold.otf) format(opentype);
-}
+
 @font-face {
     font-family:'Poppins';
     src: url(/fonts/Poppins-Regular.ttf) format(truetype), url(/fonts/Poppins-BlackItalic.ttf) format(truetype), url(/fonts/Poppins-Bold.ttf) format(truetype), url(/fonts/Poppins-ExtraBold.ttf) format(truetype), url(/fonts/Poppins-BoldItalic.ttf) format(truetype),url(/fonts/Poppins-ExtraBoldItalic.ttf) format(truetype), url(/fonts/Poppins-ExtraLight.ttf) format(truetype), url(/fonts/Poppins-ExtraLightItalic.ttf) format(truetype), url(/fonts/Poppins-Italic.ttf) format(truetype), url(/fonts/Poppins-Light.ttf) format(truetype), url(/fonts/Poppins-LightItalic.ttf) format(truetype), url(/fonts/Poppins-Black.ttf) format(truetype), url(/fonts/Poppins-MediumItalic.ttf) format(truetype), url(/fonts/Poppins-Medium.ttf) format(truetype), url(/fonts/Poppins-SemiBold.ttf) format(truetype), url(/fonts/Poppins-SemiBoldItalic.ttf) format(truetype), url(/fonts/Poppins-Thin.ttf) format(truetype), url(/fonts/Poppins-ThinItalic.ttf) format(truetype);
-}
-
-@font-face {
-    font-family:'bebas-neue';
-    src: url(/fonts/BebasNeue-Regular.ttf) format(truetype);
 }
 
 *{
@@ -25,21 +13,13 @@ body{
     
 }
 
-/*
-fontes: impact - titulo; Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-titulo - pacifico; font-family: 'Pacifico', cursiva;
-subtitulo- bebas neue; font-family: 'Bebas Neue', cursiva;
-corpo do texto - poppins; font-family: 'Poppins', sem serifa;
-cores: FFE07D, FFD064, CCF49F, DD58D9, EB72E7, 95D6A4;
 
-*/
 .topo{
     display: flex;
     flex-flow: row wrap;
     height: 120px;
     justify-content: center;
     align-items: center;
-    /* position: fixed; */
     width: 100%;
     border-bottom: 5px double #000000;
 }
@@ -58,9 +38,7 @@ cores: FFE07D, FFD064, CCF49F, DD58D9, EB72E7, 95D6A4;
 }
 
 .redes-sociais a:hover{
-    filter: drop-shadow(2px 2px 4px #DD58D9 )
-    /* box-shadow: 7px 9px 9px #D390D5; */
-    ;
+    filter: drop-shadow(2px 2px 4px #DD58D9 );
 }
 
 .menu {
@@ -126,7 +104,7 @@ cores: FFE07D, FFD064, CCF49F, DD58D9, EB72E7, 95D6A4;
 #bt4:hover{
     padding: 10px 10px 10px 10px;
     color:#000000;
-    background: #A487BD;
+    background: #E32D91;
     border: 5px double #ffffff;
     transition: all 0.9s ease;
 }
@@ -146,107 +124,22 @@ cores: FFE07D, FFD064, CCF49F, DD58D9, EB72E7, 95D6A4;
     border: 5px double #ffffff;
     transition: all 0.9s ease;
 }
-.header{
+header{
+    border-bottom: 5px double #000000;
+    width: 100%;
     display: flex;
-    flex: row wrap;
-    height: auto;
     justify-content: center;
     align-items: center;
-    border-bottom: 5px double #000000;
-}
-.headline{
-    flex: 40%;
-    margin-left: 10%;
-    align-items: center;
-    color: #000000;
 }
 
-
-.img-headline{
-    margin-left: 10px;
-    margin-right: 10%;
-    flex: 40%;
-    text-align: center;
-}
-
-.img-headline img{
-    max-width: 100%;
-    height: 100%;
-
-}
-.headline h1 {
-    font-family: 'Trajan', cursiva;
-    font-weight: bold;
-    font-size: 50px;
-    padding: 0;
-    margin: 0;
-}
-
-/* .header:hover{
-    background: #D390D5;
-} */
-
-.headline h1:hover {
-    padding: 10px;
-    background: #D390D5;
-    border-radius: 10px;
-    color: #ffffff;
-    transition: all 0.9s ease;
-    
-}
-
-
-section{
-    width: 100%;
-    display: inline-block;
-    padding: 5%;
-    text-align: center;
-    border-bottom: 5px double #000000;
-}
-section h2{
-    width: 100%;
-    font-size: 50px;
-    margin:0; 
-    font-family: 'Trajan', cursiva; 
-    background-color: #D390D5;
-    color: #ffffff;
-    border-radius: 5px;
-}
 .news{
-    display: inline-block;
-    margin-top: 5%;
-}
-.card{
-    display: inline-block;
-    width: 30%;
-    padding: 10px;
-    margin: 1%;
-    border: 2px solid #D390D5;
-    color:#000000;
-    border-radius: 10px;
-    cursor: pointer;
-}
-.text-oculto{
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
 }
 
-.card:hover{
-    background-color: #D390D5;
-    color: #ffffff;
-    padding: 15px;
-    transition: all 0.1s linear;
-}
-.card:hover img{
-    display: none;
-}
-
-.card:hover .text-oculto{
-    display: block;
-}
-.card:hover .card-text {
-    display: none;
-
-}
 footer{
     display: flex;
     height: 120px;

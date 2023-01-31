@@ -1,19 +1,7 @@
-@font-face {
-    font-family:'Pacifico';
-    src: url(/fontes/Pacifico-Regular.ttf) format(truetype);
-}
-@font-face {
-    font-family:'Trajan';
-    src: url(/fonts/TrajanPro-Bold.otf) format(opentype);
-}
+
 @font-face {
     font-family:'Poppins';
     src: url(/fonts/Poppins-Regular.ttf) format(truetype), url(/fonts/Poppins-BlackItalic.ttf) format(truetype), url(/fonts/Poppins-Bold.ttf) format(truetype), url(/fonts/Poppins-ExtraBold.ttf) format(truetype), url(/fonts/Poppins-BoldItalic.ttf) format(truetype),url(/fonts/Poppins-ExtraBoldItalic.ttf) format(truetype), url(/fonts/Poppins-ExtraLight.ttf) format(truetype), url(/fonts/Poppins-ExtraLightItalic.ttf) format(truetype), url(/fonts/Poppins-Italic.ttf) format(truetype), url(/fonts/Poppins-Light.ttf) format(truetype), url(/fonts/Poppins-LightItalic.ttf) format(truetype), url(/fonts/Poppins-Black.ttf) format(truetype), url(/fonts/Poppins-MediumItalic.ttf) format(truetype), url(/fonts/Poppins-Medium.ttf) format(truetype), url(/fonts/Poppins-SemiBold.ttf) format(truetype), url(/fonts/Poppins-SemiBoldItalic.ttf) format(truetype), url(/fonts/Poppins-Thin.ttf) format(truetype), url(/fonts/Poppins-ThinItalic.ttf) format(truetype);
-}
-
-@font-face {
-    font-family:'bebas-neue';
-    src: url(/fonts/BebasNeue-Regular.ttf) format(truetype);
 }
 
 *{
@@ -25,21 +13,12 @@ body{
     
 }
 
-/*
-fontes: impact - titulo; Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-titulo - pacifico; font-family: 'Pacifico', cursiva;
-subtitulo- bebas neue; font-family: 'Bebas Neue', cursiva;
-corpo do texto - poppins; font-family: 'Poppins', sem serifa;
-cores: FFE07D, FFD064, CCF49F, DD58D9, EB72E7, 95D6A4;
-
-*/
 .topo{
     display: flex;
     flex-flow: row wrap;
     height: 120px;
     justify-content: center;
     align-items: center;
-    /* position: fixed; */
     width: 100%;
     border-bottom: 5px double #000000;
 }
@@ -58,9 +37,7 @@ cores: FFE07D, FFD064, CCF49F, DD58D9, EB72E7, 95D6A4;
 }
 
 .redes-sociais a:hover{
-    filter: drop-shadow(2px 2px 4px #F192A6 )
-    /* box-shadow: 7px 9px 9px #D390D5; */
-    ;
+    filter: drop-shadow(2px 2px 4px #F192A6 );
 }
 
 .menu {
@@ -126,7 +103,7 @@ cores: FFE07D, FFD064, CCF49F, DD58D9, EB72E7, 95D6A4;
 #bt4:hover{
     padding: 10px 10px 10px 10px;
     color:#000000;
-    background: #A487BD;
+    background: #E32D91;
     border: 5px double #ffffff;
     transition: all 0.9s ease;
 }
@@ -147,21 +124,20 @@ cores: FFE07D, FFD064, CCF49F, DD58D9, EB72E7, 95D6A4;
     transition: all 0.9s ease;
 }
 
-section{
-    width: 100%;
-    display: inline-block;
-    padding: 5%;
-    text-align: center;
+header{
     border-bottom: 5px double #000000;
-}
-section h2{
     width: 100%;
-    font-size: 50px;
-    margin:0; 
-    font-family: 'Trajan', cursiva; 
-    background-color: #D390D5;
-    color: #ffffff;
-    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
 }
 
 footer{
