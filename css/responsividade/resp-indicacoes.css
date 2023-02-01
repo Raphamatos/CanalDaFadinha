@@ -1,9 +1,12 @@
 @media screen and (max-width:1005px){
-    .navbar{
-        position: relative;
+    .topo{
+        margin: 0 0 0 0;
     }
     .redes-sociais{
         display: none;
+    }
+    .logo{
+       width: auto;
     }
     .menu{
         height: auto;
@@ -12,26 +15,14 @@
     }
     .header{
         padding-top:50px;
-        flex-flow: row wrap;
-    }
-    .headline{
-        flex:100%;
-        margin:5%;
-        text-align:center;
-    }
-    .headline p{
-        text-align:center;
-    }
-    .img-headline{
-        flex:100%;
-        margin:5%;
-        text-align:center;
+
     }
 
-    .card{
-        width:100%;
-    }
     footer{
+        flex-wrap: wrap;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: px;
         flex-flow: column;
         align-items: center;
     }
@@ -39,7 +30,14 @@
         width: auto;
     }
     .creditos{
+        flex-flow: row;
         justify-content: center;
     }
 
+}
+
+@media screen and (max-width:350px){
+    .logo, .logo-rodapé{
+        max-width: 340px;
+     }
 }
