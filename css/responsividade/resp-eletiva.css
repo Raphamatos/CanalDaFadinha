@@ -11,13 +11,8 @@
     .menu{
         height: auto;
         flex-wrap: wrap;
-        
     }
-    .header{
-        padding-top:50px;
-
-    }
-
+   
     footer{
         flex-wrap: wrap;
         height: auto;
