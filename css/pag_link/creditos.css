@@ -1,0 +1,51 @@
+:root{
+    --prim: #e03737da;
+    --sec: #ff0000;
+}
+.cards-conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto 1rem;
+    width: 90%;
+}
+.cards-conteiner h2{
+    width: 100%;
+    border-bottom: 0.5rem solid var(--sec);
+    font-size: 2.0rem;
+    text-transform:uppercase;
+    text-align: center;
+    margin: 0.9rem auto;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    width: 25%;
+    margin: 2px auto;
+    border-radius: 1rem;
+    border: 0.2rem solid black;
+}
+.cards iframe, .card img{
+    border: 2px solid black;
+    margin: 0.5rem;
+    width: 95%;
+    height: 350px;
+    border-radius: 1rem;
+}
+
+.cards a{
+    text-transform: capitalize;
+    border-radius: 0.5rem;
+    background-color: var(--prim);
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 1rem 0.5rem;
+    padding: 1rem 1.5rem;
+}
+.cards a:hover{
+    background-color: var(--sec);
+}
