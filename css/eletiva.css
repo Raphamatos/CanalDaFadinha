@@ -1,215 +1,60 @@
-
-@font-face {
-    font-family:'Poppins';
-    src: url(/fonts/Poppins-Regular.ttf) format(truetype), url(/fonts/Poppins-BlackItalic.ttf) format(truetype), url(/fonts/Poppins-Bold.ttf) format(truetype), url(/fonts/Poppins-ExtraBold.ttf) format(truetype), url(/fonts/Poppins-BoldItalic.ttf) format(truetype),url(/fonts/Poppins-ExtraBoldItalic.ttf) format(truetype), url(/fonts/Poppins-ExtraLight.ttf) format(truetype), url(/fonts/Poppins-ExtraLightItalic.ttf) format(truetype), url(/fonts/Poppins-Italic.ttf) format(truetype), url(/fonts/Poppins-Light.ttf) format(truetype), url(/fonts/Poppins-LightItalic.ttf) format(truetype), url(/fonts/Poppins-Black.ttf) format(truetype), url(/fonts/Poppins-MediumItalic.ttf) format(truetype), url(/fonts/Poppins-Medium.ttf) format(truetype), url(/fonts/Poppins-SemiBold.ttf) format(truetype), url(/fonts/Poppins-SemiBoldItalic.ttf) format(truetype), url(/fonts/Poppins-Thin.ttf) format(truetype), url(/fonts/Poppins-ThinItalic.ttf) format(truetype);
-}
-:root{
+:root {
     --prim: #E32D91;
     --sec: #f188c2;
 }
 
-body{
-    font-family: 'Poppins', sem serifa;
-    margin: 0;
-}
-
-
-.topo{
-    display: flex;
-    flex-flow: row wrap;
-    height: 120px;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    border-bottom: 5px double #000000;
-}
-.logo{
-    width: 50%;
-}
-.logo img{
-    display: flex;
-    width: auto;
-    height: 120px;
-    justify-content: center;
-
-}
-.redes-sociais{
-    display: flex;
-    justify-content: flex-end;
-    align-items:center;
-    padding: 20px;
-    width: 30%;
-}
-
-.redes-sociais a:hover{
-    filter: drop-shadow(2px 2px 4px var(--prim));
-}
-
-.menu {
-    width: 100%;
-    height: 70px;
-    background: var(--prim);
-    background-size: contain;
-    display: flex;
-    flex: row wrap;
-    justify-content: center;
-    border-bottom: 5px double #000000;
-}
-
-.menu a{
-    box-sizing: border-box;
-    margin: 10px;
-    height: 50px;
-    padding: 10px 10px 10px 10px;
-    background:#ffffff ;
-    text-decoration: none;
-    font-family: 'bebas beue',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif cursiva;
-    color: #000000;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 5px;
-    border: 5px double #000000;
-}
-
-#casa{
-    height: auto;
-    margin: 0;
-}
-#casa:hover{
-    border: 5px double #ffffff;
-    border-radius: 20px;
-    transition: all 0.3s ease;
-}
-
-#bt1:hover{
-
-    padding: 10px 10px 10px 10px;
-    color:#000000;
-    background: #6BB7D1;
-    border: 5px double #ffffff;
-    transition: all 0.9s ease;
-}
-
-#bt2:hover{
-    padding: 10px 10px 10px 10px;
-    color:#000000;
-    background: #F192A6;
-    border: 5px double #ffffff;
-    transition: all 0.9s ease;
-}
-
-#bt3:hover{
-    padding: 10px 10px 10px 10px;
-    color:#000000;
-    background: #FFD064;
-    border: 5px double #ffffff;
-    transition: all 0.9s ease;
-}
-
-#bt4:hover{
-    padding: 10px 10px 10px 10px;
-    color:#000000;
-    background: #E32D91;
-    border: 5px double #ffffff;
-    transition: all 0.9s ease;
-}
-
-#bt5:hover{
-    padding: 10px 10px 10px 10px;
-    color:#000000;
-    background: #95D6A4;
-    border: 5px double #ffffff;
-    transition: all 0.9s ease;
-}
-
-#bt6:hover{
-    padding: 10px 10px 10px 10px;
-    color:#000000;
-    background: #CCF49F;
-    border: 5px double #ffffff;
-    transition: all 0.9s ease;
-}
-section{
-    border-bottom: 5px double #000000;
+section {
     display: flex;
     flex-wrap: wrap;
     flex: row;
     justify-content: center;
     align-items: center;
-     
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     width: 90vw;
 
 }
 
-.titulo{
-    display: inline;
+.titulo_eletiva {
     font-size: 1.3rem;
-    background-color: var(--prim);
-    padding: 1rem;
     border-radius: 8px;
-    color: #ffffff;
     text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0.8rem auto;
+    color: #000000;
+    border-bottom: 0.5rem solid var(--prim);
+
+}
+
+.titulo_eletiva:hover {
+    border-bottom: 0.9rem solid var(--sec);
+    transition: all 0.5s ease;
+}
+.container{
+    border-top: 5px double #000000;
     
 }
-.titulo a{ 
+
+.container a{
     text-decoration: none;
-    color: #ffffff;
-    padding:  20px;
+    font-size: 2rem;
+    text-transform: capitalize;
     text-align: center;
-
-}
-
-.titulo:hover{
+    margin: 0.5rem auto;
+    padding: 0.5rem 1rem;
+    color: #000000;
+    border-radius: 0.5rem 1rem;
     background-color: var(--sec);
-}
-
-footer{
-    display: flex;
-    flex-flow: row wrap;
-    height: 120px;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    border-bottom: 5px double #000000;
     
 }
-.logo-rodapé{
-    width: 50%;
+.container a:hover{
+    border-bottom: 0.9rem solid var(--prim);
+    transition: all 0.5s ease;
+    background-color: white;
 }
-
-.logo-rodapé img{
-    display: flex;
-    width: auto;
-    height: 120px;
-    justify-content: center;
-}
-
-.creditos{
-    width: 30%;
-    height: 120px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-    align-items: center;
-    
-}
-.creditos a{
-    color: #ffffff;
-    background: var(--prim);
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 20px 16px;
-    margin: 5px;
-    
-}
-.creditos a:hover{
-    background: var(--sec);
-}
-

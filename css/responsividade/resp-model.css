@@ -6,18 +6,13 @@
         display: none;
     }
     .logo{
-       width: auto;
+    width: auto;
     }
     .menu{
         height: auto;
         flex-wrap: wrap;
-        
     }
-    .header{
-        padding-top:50px;
-
-    }
-
+    
     footer{
         flex-wrap: wrap;
         height: auto;
@@ -39,5 +34,5 @@
 @media screen and (max-width:350px){
     .logo, .logo-rodapé{
         max-width: 340px;
-     }
+    }
 }

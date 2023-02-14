@@ -1,0 +1,109 @@
+:root{
+  --prim: #2dc8fc;
+  --sec: #a8e4f8;
+}
+
+
+section h1{
+  position: relative;
+  font-size: 2.5rem;
+  text-transform:uppercase;
+  text-align: center;
+  margin: 0.1rem auto;
+}
+
+section h3{
+  padding-left: 1.5rem;
+  text-align: start;
+}
+
+section h4{
+  text-align: center;
+  margin:1rem auto;
+  padding: 1rem;
+  color: black;
+  border-radius: 0.5rem 1rem;
+  font-weight: bolder;
+  background-color: var(--sec);
+  border-bottom: 0.5rem solid var(--prim);
+}
+.links_escolas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.links_escolas a{
+  font-weight: 900;
+  color: #000000;
+  text-decoration: none;
+  background-color: var(--sec);
+  padding: 0.5rem 2rem;
+  margin: 0.5rem ;
+  border-bottom: 0.5rem solid var(--prim);
+}
+.links_escolas a:hover{
+  padding: 1rem 2.5rem;
+  transition: all 0.3s ease;
+}
+
+.ilustr{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 80%;
+  margin-bottom: 1rem;
+  
+}
+
+.titulo_escola{
+  font-size: 1.3rem;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #000000;
+  border-bottom: 0.5rem solid var(--prim);
+  margin-top: 1rem;
+}
+.content_escolas{
+  width: 80vw;
+  margin: 0.6rem auto;
+  text-align: justify;
+}
+.icon{
+  margin: 0 1rem;
+  width: 1rem;
+}
+.carta{
+  overflow: auto;
+  border: 1px solid black;
+  margin: 1rem;
+}
+.carta p{
+  margin: 1rem;
+}
+.carta p img{
+  float: left;
+  margin: 1rem;
+  border: 1px solid black;
+  
+}
+.poema{
+  text-align: center;
+}
+
+@media (max-width: 600px){
+  .content_escolas{
+    margin: 0.1rem auto;
+  }
+  .carta, .carta p{
+    margin: 0.1;
+  }
+  .carta p img{
+    width: 90%;
+  }
+}
+
+

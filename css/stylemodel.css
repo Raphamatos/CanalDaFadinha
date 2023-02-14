@@ -3,10 +3,6 @@
     font-family:'Poppins';
     src: url(/fonts/Poppins-Regular.ttf) format(truetype), url(/fonts/Poppins-BlackItalic.ttf) format(truetype), url(/fonts/Poppins-Bold.ttf) format(truetype), url(/fonts/Poppins-ExtraBold.ttf) format(truetype), url(/fonts/Poppins-BoldItalic.ttf) format(truetype),url(/fonts/Poppins-ExtraBoldItalic.ttf) format(truetype), url(/fonts/Poppins-ExtraLight.ttf) format(truetype), url(/fonts/Poppins-ExtraLightItalic.ttf) format(truetype), url(/fonts/Poppins-Italic.ttf) format(truetype), url(/fonts/Poppins-Light.ttf) format(truetype), url(/fonts/Poppins-LightItalic.ttf) format(truetype), url(/fonts/Poppins-Black.ttf) format(truetype), url(/fonts/Poppins-MediumItalic.ttf) format(truetype), url(/fonts/Poppins-Medium.ttf) format(truetype), url(/fonts/Poppins-SemiBold.ttf) format(truetype), url(/fonts/Poppins-SemiBoldItalic.ttf) format(truetype), url(/fonts/Poppins-Thin.ttf) format(truetype), url(/fonts/Poppins-ThinItalic.ttf) format(truetype);
 }
-:root{
-    --prim: #f36fb7;
-    --sec: #f5a9d3;
-}
 
 body{
     font-family: 'Poppins', sem serifa;
@@ -85,7 +81,7 @@ body{
 
     padding: 10px 10px 10px 10px;
     color:#000000;
-    background: #6BB7D1;
+    background: #2dc8fc;
     border: 5px double #ffffff;
     transition: all 0.9s ease;
 }
@@ -129,7 +125,6 @@ body{
     border: 5px double #ffffff;
     transition: all 0.9s ease;
 }
-
 header{
     border-bottom: 5px double #000000;
     width: 100%;
@@ -153,7 +148,7 @@ footer{
     justify-content: center;
     align-items: center;
     width: 100%;
-    border-bottom: 5px double #000000;
+    border-top: 5px double #000000;
     
 }
 .logo-rodapé{
