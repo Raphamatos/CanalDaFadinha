@@ -35,4 +35,12 @@
     .logo, .logo-rodapé{
         max-width: 340px;
     }
+
+}
+
+@media screen and (max-width:300px){
+    .logo img, .logo-rodapé img{
+        max-width: 280px;
+    }
+    
 }
