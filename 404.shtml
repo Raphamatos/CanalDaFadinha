@@ -1,13 +1,26 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<HTML><HEAD>
-<TITLE>404 Not Found</TITLE>
-</HEAD><BODY>
-<H1>Not Found</H1>
-The requested URL <!--#echo var="REQUEST_URI" --> was not found on this server.
-<HR>
-<I><!--#echo var="HTTP_HOST" --></I>
-</BODY></HTML>
-
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/pag_link/404.css"/>
+    <title>Error 404</title>
+  </head>
+  <body>
+    <div class="content">
+      <h1>
+        NÃO ENCONTRADO
+      </h1>
+      <div class="animate-div">
+        <img id="animate" src="img/null/animate.svg" alt=""/>
+      </div>
+      <h1>
+        A URL solicitada não foi encontrada neste servidor.
+      </h1>
+    </div>
+  </body>
+</html>
 
 
 
