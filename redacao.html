@@ -8,6 +8,7 @@
     <meta name="keywords"content="literatura, redação, gramática, português, artes, séries">
     <link rel="shortcut icon" href="img/paginainicial/ico.png" type="image/x-icon">
     <link rel="stylesheet" href="css/redação.css">
+    <link rel="stylesheet" href="css/pag_link/slide.css">
     <link rel="stylesheet" href="css/stylemodel.css">
     <link rel="stylesheet" href="css/responsividade/resp-model.css">
     <title>Canal da Fadinha</title>
@@ -35,9 +36,39 @@
             <a id="bt6" href="exercicios.html">Exercícios</a>
         </div>
     </nav>
-    <header>
-        <img class="news" src="img/redacao/dontcry.jpg" alt="Logo-teremos-novidades">
-    </header>
+    <section class="slides-container">
+        <div class="mySlides fade">
+            <img src="img/redacao/slide/slides1.PNG">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="img/redacao/slide/slide2.PNG">
+        </div>
+        <div class="mySlides fade">
+            <img src="img/redacao/slide/slides3.PNG">
+        </div>
+        <div class="mySlides fade">
+            <img src="img/redacao/slide/slides4.PNG">
+        </div>
+        <div class="mySlides fade">
+            <img src="img/redacao/slide/slides5.PNG">
+
+        </div>
+        <div class="mySlides fade">
+            <img src="img/redacao/slide/slides6.PNG">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1) ">&#10095;</a>
+        <br>
+        <div>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+    </section>
 
     <footer>
         <div class="logo-rodapé">
@@ -48,5 +79,6 @@
             <a href="#">Autor</a>
         </div>
     </footer>
+    <script src="js/1slide.js"></script>
 </body>
 </html>

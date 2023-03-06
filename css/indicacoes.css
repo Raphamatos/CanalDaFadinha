@@ -1,4 +1,126 @@
-:root{
-    --prim: #95D6A4;
-    --sec: #00ff3c;
+:root {
+    --prim: #6aee89;
+    --sec: #a2ffb8;
+}
+
+.links_ {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.links_ a {
+    font-weight: 900;
+    color: #000000;
+    text-decoration: none;
+    background-color: var(--sec);
+    padding: 0.5rem 2rem;
+    margin: 0.5rem;
+    border-bottom: 0.5rem solid var(--prim);
+}
+
+.links_ a:hover {
+    padding: 1rem 2.5rem;
+    transition: all 0.3s ease;
+}
+
+.titulo_kind {
+    font-size: 1.3rem;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #000000;
+    border-bottom: 0.5rem solid var(--prim);
+}
+.container_filmes{
+    width: 100vw;
+}
+.content_filmes{
+    margin: 0 auto;
+    width: 95vw;
+    border: 1px solid black;
+    display: flex;
+}
+#banner{
+    margin: 1rem;
+    position: relative;
+    width: 350px; 
+}
+.content_filmes div h3:first-child {
+    margin-top: 1rem;
+}
+
+.content_filmes h3{
+    font-size: 1.5rem;
+}
+.content_filmes h3 span{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.classificação{
+    position: relative;
+    top: 0.5rem;
+}
+#logo_netflix{
+    position: relative;
+    margin: 0 0.3rem;
+    top: 4px;
+    width: 5rem;
+}
+#classificador{
+    width: 2rem;
+    float: left;
+    margin: 0.5rem;
+}
+.content_filmes p span{
+    font-weight: 800;
+}
+#generofilmeComédia{
+    background-color: rgb(255, 238, 0);
+    padding: 0.5rem;
+    border-radius: 5px;
+    position: relative;
+    top: -2px;
+}
+#ico_fadinha{
+    position: relative;
+    top: 0.5rem;
+    width: 3rem;
+}
+.texto_sinopse{
+    text-align: justify;
+    width: 97%;
+}
+@media screen and (max-width:915px){
+    #classificador{
+        margin: 0;
+        float: none;
+    }
+}
+@media screen and (max-width:860px){
+    #generofilmeComédia{
+        top: 0.5rem;
+    }
+}
+@media screen and (max-width:765px){
+    #generofilmeComédia{
+    position: initial;
+    background-color: initial;
+    padding: 0;
+    border-radius:0;
+    }
+}
+@media screen and (max-width:600px){
+    .content_filmes{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content_filmes div:nth-child(2){
+        margin: 0 1rem 1rem ;
+    }
 }

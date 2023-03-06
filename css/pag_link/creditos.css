@@ -27,7 +27,6 @@
 }
 .cards iframe, .card img{
     border: 2px solid black;
-    margin: 0.3rem auto;
     height: 350px;
     border-radius: 1rem;
     position: relative;

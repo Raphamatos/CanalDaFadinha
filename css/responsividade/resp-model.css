@@ -1,16 +1,26 @@
-@media screen and (max-width:1005px){
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width:850px){
     .topo{
         margin: 0 0 0 0;
+        height: auto;
+
     }
     .redes-sociais{
         display: none;
     }
-    .logo{
-    width: auto;
+    .logo img, .logo-rodapé img{
+        max-width: 280px;
+        height: auto;
     }
     .menu{
         height: auto;
         flex-wrap: wrap;
+    }
+    .menu a{
+        font-size: 0.8rem;
     }
     
     footer{
@@ -29,18 +39,4 @@
         justify-content: center;
     }
 
-}
-
-@media screen and (max-width:350px){
-    .logo, .logo-rodapé{
-        max-width: 340px;
-    }
-
-}
-
-@media screen and (max-width:300px){
-    .logo img, .logo-rodapé img{
-        max-width: 280px;
-    }
-    
 }
