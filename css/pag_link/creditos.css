@@ -8,6 +8,12 @@
     margin: 0 auto 1rem;
     width: 90%;
 }
+.cards-conteiner p{
+    text-align: justify;
+    margin: 1rem 0;
+    font-weight: 500;
+    font-size: 1.2em;
+}
 .cards-conteiner h2{
     width: 100%;
     border-bottom: 0.5rem solid var(--sec);
@@ -62,5 +68,9 @@
     .cards{
         margin: 2px auto;
         max-width: 90%;
+    }
+    .cards-conteiner p{
+        font-size: 1em;
+        margin: 1rem;
     }
 }
