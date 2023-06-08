@@ -5,47 +5,56 @@ function carregar() {
     var imagem = document.getElementById('imagem-pagInicial');
     var data = new Date();
     var hora = data.getHours();
-    var hora = 10;
-
     var testeClassmsg1 = document.querySelector('.msg1-bomdia');
     var testeClassmsg2 = document.querySelector('.msg2-bomdia');
 
     var mql800 = window.matchMedia('(max-width: 800px)');
     var mql600 = window.matchMedia('(max-width: 660px)');
     var mql400 = window.matchMedia('(max-width: 500px)');
+    var mql350 = window.matchMedia('(max-width: 350px)');
 
     function screen800(e) {
         if (e.matches) {
             testeClassmsg1.classList.remove('msg1-bomdia');
             testeClassmsg2.classList.remove('msg2-bomdia');
-            testeClassmsg2.classList.add('testeClass2-800');
-            testeClassmsg1.classList.add('testeClass1-800');
+            testeClassmsg2.classList.add('screen800_2');
+            testeClassmsg1.classList.add('screen800_1');
         }
         else {
             testeClassmsg1.classList.add('msg1-bomdia');
             testeClassmsg2.classList.add('msg2-bomdia');
-            testeClassmsg2.classList.remove('testeClass2-800');
-            testeClassmsg1.classList.remove('testeClass1-800');
+            testeClassmsg2.classList.remove('screen800_2');
+            testeClassmsg1.classList.remove('screen800_1');
         }
     }
     function screen600(e) {
         if (e.matches) {
-            testeClassmsg1.classList.add('testeClass1-600');
-            testeClassmsg2.classList.add('testeClass2-600');
+            testeClassmsg1.classList.add('screen600_1');
+            testeClassmsg2.classList.add('screen600_2');
         }
         else {
-            testeClassmsg1.classList.remove('testeClass1-600');
-            testeClassmsg2.classList.remove('testeClass2-600');
+            testeClassmsg1.classList.remove('screen600_1');
+            testeClassmsg2.classList.remove('screen600_2');
         }
     }
     function screen400(e) {
         if (e.matches) {
-            testeClassmsg1.classList.add('testeClass1-400');
-            testeClassmsg2.classList.add('testeClass2-400');
+            testeClassmsg1.classList.add('screen400_1');
+            testeClassmsg2.classList.add('screen400_2');
         }
         else {
-            testeClassmsg1.classList.remove('testeClass1-400');
-            testeClassmsg2.classList.remove('testeClass2-400');
+            testeClassmsg1.classList.remove('screen400_1');
+            testeClassmsg2.classList.remove('screen400_2');
+        }
+    }
+    function screen350(e){
+        if (e.matches) {
+            testeClassmsg1.classList.add('screen350_1');
+            testeClassmsg2.classList.add('screen350_2');
+        }
+        else {
+            testeClassmsg1.classList.remove('screen350_1');
+            testeClassmsg2.classList.remove('screen350_2');
         }
     }
 
@@ -57,6 +66,7 @@ function carregar() {
         mql800.addEventListener("change", screen800);
         mql600.addEventListener("change", screen600);
         mql400.addEventListener("change", screen400);
+        mql350.addEventListener("change", screen350);
 
     } else if (hora >= 12 && hora < 18) {
         //boa tarde
@@ -71,7 +81,7 @@ function carregar() {
         mql800.addEventListener("change", screen800);
         mql600.addEventListener("change", screen600);
         mql400.addEventListener("change", screen400);
-
+        mql350.addEventListener("change", screen350);
 
     } else {
         //boa noite
@@ -86,5 +96,6 @@ function carregar() {
         mql800.addEventListener("change", screen800);
         mql600.addEventListener("change", screen600);
         mql400.addEventListener("change", screen400);
+        mql350.addEventListener("change", screen350);
     }
 }

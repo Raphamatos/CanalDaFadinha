@@ -102,7 +102,7 @@ section{
     font-weight: 900;
 }
 
-.testeClass1-800{
+.screen800_1{
     text-transform: uppercase;
     color: #fff;
     -webkit-text-stroke: 1.5px #000;
@@ -117,7 +117,7 @@ section{
     font-weight: 900;
     transition: all 0.3s ease-in-out;
 }
-.testeClass2-800{
+.screen800_2{
     color: #fff;
     -webkit-text-stroke: 1.5px #000;
     background-color: #fcc340;
@@ -131,25 +131,37 @@ section{
     font-weight: 900;
     transition: all 0.3s ease-in-out;
 }
-.testeClass1-600{
+.screen600_1{
     font-size: 2rem;
     top: 35px;
     left: 30px;
 }
-.testeClass2-600{
+.screen600_2{
     font-size: 1rem;
     top: 90px;
     left: 30px;
 }
-.testeClass1-400{
+.screen400_1{
     -webkit-text-stroke: 0.5px #000;
     font-size: 1.2rem;
     top: 35px;
     left: 30px;
 }
-.testeClass2-400{
+.screen400_2{
     -webkit-text-stroke: 0.5px #000;
     font-size: 0.8rem;
     top: 70px;
     left: 30px;
+}
+.screen350_1{
+    -webkit-text-stroke: 0.5px #000;
+    font-size: 0.8rem;
+    top: 35px;
+    left: 15px;
+}
+.screen350_2{
+    -webkit-text-stroke: 0.5px #000;
+    font-size: 0.5rem;
+    top: 55px;
+    left: 15px;
 }
