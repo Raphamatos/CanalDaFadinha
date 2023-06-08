@@ -2,9 +2,7 @@
     --prim: #F192A6;
     --sec: #ff0037;
 }
-*{
-    box-sizing: border-box;
-}
+
 .slides-container{
     max-width: 80vw;
     position: relative;

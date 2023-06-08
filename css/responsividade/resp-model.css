@@ -27,8 +27,7 @@
     footer{
         flex-wrap: wrap;
         height: auto;
-        margin-top: 10px;
-        margin-bottom: px;
+        margin-top: 0.65rem 0;
         flex-flow: column;
         align-items: center;
     }

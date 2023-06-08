@@ -1,10 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Geologica:wght@100;200;300;400;500;600;700;800;900 & display=swap');
 
 @import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1.300;1.400;1.500;1.600;1.700;1.800;1.900 & display=swap');
 
 /* font-family: 'Comfortaa', cursive; */
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Geologica' ,'Poppins', sans-serif;
     margin: 0;
 }
 
@@ -16,7 +23,6 @@ body {
     align-items: center;
     width: 100vw;
     margin: 0;
-    border-bottom: 5px double #000000;
 }
 
 .logo {
@@ -34,7 +40,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 20px;
+    padding: 1.25rem;
     width: 30%;
 }
 
@@ -44,92 +50,82 @@ body {
 
 .menu {
     width: 100%;
-    height: 70px;
     background: var(--prim);
     background-size: contain;
     display: flex;
     flex: row wrap;
     justify-content: center;
-    border-bottom: 5px double #000000;
+    border-bottom: 3px solid white;
 }
 
 .menu a {
-    box-sizing: border-box;
-    margin: 10px;
-    height: 50px;
-    padding: 10px 10px 10px 10px;
+    display: flex;
+    margin: 0.63rem;
+    height: 3.5rem;
+    padding: 0.63rem;
     background: #ffffff;
-    text-decoration: none;
-    font-family: 'bebas beue', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif cursiva;
     color: #000000;
     font-size: 1rem;
     font-weight: bold;
-    border-radius: 5px;
-    border: 5px double #000000;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
 }
 
 #casa {
     height: auto;
-    margin: 0;
+    margin: 0.25rem 0;
 }
 
 #casa:hover {
-    border: 5px double #ffffff;
     border-radius: 20px;
     transition: all 0.3s ease;
 }
 
 #bt1:hover {
-
-    padding: 10px 10px 10px 10px;
-    color: #000000;
+    padding: 0.63rem;
+    color: #ffffff;
     background: #2dc8fc;
-    border: 5px double #ffffff;
+
     transition: all 0.9s ease;
 }
 
 #bt2:hover {
-    padding: 10px 10px 10px 10px;
-    color: #000000;
+    padding: 0.63rem;
+    color: #ffffff;
     background: #F192A6;
-    border: 5px double #ffffff;
     transition: all 0.9s ease;
 }
 
 #bt3:hover {
-    padding: 10px 10px 10px 10px;
-    color: #000000;
+    padding: 0.63rem;
+    color: #ffffff;;
     background: #FFD064;
-    border: 5px double #ffffff;
     transition: all 0.9s ease;
 }
 
 #bt4:hover {
-    padding: 10px 10px 10px 10px;
-    color: #000000;
+    padding: 0.63rem;
+    color: #ffffff;
     background: #E32D91;
-    border: 5px double #ffffff;
     transition: all 0.9s ease;
 }
 
 #bt5:hover {
-    padding: 10px 10px 10px 10px;
-    color: #000000;
+    padding: 0.63rem;
+    color: #ffffff;
     background: #95D6A4;
-    border: 5px double #ffffff;
     transition: all 0.9s ease;
 }
 
 #bt6:hover {
-    padding: 10px 10px 10px 10px;
-    color: #000000;
+    padding: 0.63rem;
+    color: #ffffff;
     background: #2c99f1;
-    border: 5px double #ffffff;
     transition: all 0.9s ease;
 }
 
 header {
-    border-bottom: 5px double #000000;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -144,18 +140,6 @@ header {
     width: 100%;
 }
 
-#comingsoon {
-    font-weight: 900;
-    text-align: center;
-    color: #000000;
-    text-decoration: none;
-    background-color: var(--sec);
-    padding: 0.5rem 2rem;
-    margin: 0.5rem;
-    border-bottom: 0.5rem solid var(--prim);
-    text-transform: uppercase;
-}
-
 footer {
     display: flex;
     flex-flow: row wrap;
@@ -164,6 +148,7 @@ footer {
     align-items: center;
     width: 100%;
     margin-top: 0;
+    border-top: 3px solid white;
     
 }
 footer p{
@@ -194,13 +179,26 @@ footer p{
     background: var(--prim);
     border-radius: 5px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
-    padding: 20px 16px;
+    padding: 1.25rem 1rem;
     margin: 5px;
 
 }
 
 .creditos a:hover {
     background: var(--sec);
+}
+
+#comingsoon {
+    font-weight: 900;
+    font-size: 0.95rem;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    background-color: var(--sec);
+    padding: 0.5rem 2rem;
+    margin: 0.5rem;
+    border-bottom: 0.5rem solid var(--prim);
+    text-transform: uppercase;
 }

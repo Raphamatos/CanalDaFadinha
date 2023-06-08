@@ -20,7 +20,7 @@ div .cards{
     flex-direction: column;
     text-align: center;
     width: 200px;
-    margin: 2px auto;
+    margin: 0.25rem auto;
     border-radius: 1rem;
     border: 0.2rem solid black;
     background-color: var(--prim);
