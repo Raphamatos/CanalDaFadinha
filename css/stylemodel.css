@@ -8,7 +8,6 @@ body {
     margin: 0;
 }
 
-
 .topo {
     display: flex;
     flex-flow: row wrap;
@@ -164,7 +163,8 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
-    border-top: 5px double #000000;
+    margin-top: 0;
+    
 }
 footer p{
     margin: 0.5rem;

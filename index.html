@@ -14,7 +14,7 @@
     <title>Canal da Fadinha</title>
 </head>
 
-<body>
+<body onload="carregar()">
     <div class="topo">
         <div class="logo">
             <a href="index.html"><img src="img/paginainicial/logo-paginainicial.png" alt="logo-canal-da-fadinha"></a>
@@ -43,9 +43,13 @@
         </div>
     </nav>
 
-    <header>
-        <img class="news" src="img/paginainicial/dontcry.jpg" alt="Logo-teremos-novidades">
-    </header>
+    <section >
+        <div class="pagInicial">
+            <div class="msg1-bomdia" id="msg1"></div>
+            <div class="msg2-bomdia" id="msg2"></div>
+
+        <img id="imagem-pagInicial" src="img/paginainicial/bomDia.PNG" alt="Imagem de manhã">
+    </section>
 
     <footer>
         <div class="logo-rodapé">
@@ -57,6 +61,7 @@
         </div>
         <p>© Copyright 2023, Todos os Direitos Reservados</p>
     </footer>
+    <script src="js/pag-inicial.js"></script>
 </body>
 
 </html>
