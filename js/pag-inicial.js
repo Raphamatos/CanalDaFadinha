@@ -59,9 +59,9 @@ function carregar() {
     }
 
     if (hora >= 0 && hora < 12) {
-        //bom dia
-        msg1.innerHTML = `Bom dia!`;
-        msg2.innerHTML = `O que vamos estudar hoje? <br>Ainda temos o dia todo!`;
+        //bom dia - 
+        // msg1.innerHTML = `Bom dia!`;
+        // msg2.innerHTML = `O que vamos estudar hoje? <br>Ainda temos o dia todo!`;
         imagem.src = 'img/paginainicial/bomDia.PNG';
         mql800.addEventListener("change", screen800);
         mql600.addEventListener("change", screen600);
@@ -70,12 +70,12 @@ function carregar() {
 
     } else if (hora >= 12 && hora < 18) {
         //boa tarde
-        msg1.innerHTML = `Boa tarde! `;
-        msg2.innerHTML = `O que vamos estudar?<br> Nós ainda temos uma parte do dia, vamos aproveitar! `;
-        msg1.classList.add('msg1-boatarde');
-        msg2.classList.add('msg2-boatarde');
-        msg1.style.backgroundColor = '#fa9e73cb';
-        msg2.style.backgroundColor = '#fc8b40';
+        // msg1.innerHTML = `Boa tarde! `;
+        // msg2.innerHTML = `O que vamos estudar?<br> Nós ainda temos uma parte do dia, vamos aproveitar! `;
+        // msg1.classList.add('msg1-boatarde');
+        // msg2.classList.add('msg2-boatarde');
+        // msg1.style.backgroundColor = '#fa9e73cb';
+        // msg2.style.backgroundColor = '#fc8b40';
         imagem.src = 'img/paginainicial/boaTarde.PNG';
 
         mql800.addEventListener("change", screen800);
@@ -85,14 +85,14 @@ function carregar() {
 
     } else {
         //boa noite
-        msg1.innerHTML = `Boa noite!`;
-        msg2.innerHTML = `O dia já passou, mas ainda dá tempo de estudar...`;
+        // msg1.innerHTML = `Boa noite!`;
+        // msg2.innerHTML = `O dia já passou, mas ainda dá tempo de estudar...`;
         imagem.src = 'img/paginainicial/boaNoite.PNG';
-        msg1.classList.add('msg1-boanoite');
-        msg2.classList.add('msg2-boanoite');
+        // msg1.classList.add('msg1-boanoite');
+        // msg2.classList.add('msg2-boanoite');
         
-        msg1.style.backgroundColor = '#bd73fa70';
-        msg2.style.backgroundColor = '#b740fc4b';
+        // msg1.style.backgroundColor = '#bd73fa70';
+        // msg2.style.backgroundColor = '#b740fc4b';
         mql800.addEventListener("change", screen800);
         mql600.addEventListener("change", screen600);
         mql400.addEventListener("change", screen400);
